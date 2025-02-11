@@ -151,6 +151,7 @@ combo_##name {                        \
     COMBO(vim_saveall,  &vim_wa,  1 2)
 		COMBO(nvim, &nvim, 6 7)
 		COMBO(lazy_git, &lazy_git,  7 8)
+		COMBO(unsuggest, &kp LC(E), 8 9)
     // // bottom
     COMBO(vim_quit,  &vim_q,  21 22)
     COMBO(cd_downward, &dir_up, 23 24)
@@ -230,7 +231,7 @@ combo_##name {                        \
  //           ╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
          	      &kp LG(W)  &kp LG(A)  &sk LGUI   &kp LG(S)  &kp LG(W)      &kp CAPS   &kp LC(O)  &kp LC(D)  &kp LC(U)   &kp LC(I)
  //           ├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
- 		            &kp LEFT   &kp DOWN    &kp UP    &kp RIGHT  &kp LG(T)       ________   &kp LC(P) &kp LC(S)    &kp LG(F)  &sk LCTRL
+ 		            &kp LEFT   &kp DOWN    &kp UP    &kp RIGHT  &kp LG(T)      ________   &kp LC(P) &kp LC(S)    &kp LG(F)  &sk LCTRL
  //           ├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		________   &kp LG(Z)   &kp LG(X)  &kp LG(C)  &kp LG(D)   &kp LG(V)     &kp LC(R)  ________   &sk LALT   &kp BSLH   &comment ________ 
  //╰──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
