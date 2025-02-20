@@ -134,10 +134,6 @@ combo_##name {                        \
 		compatible = "zmk,combos";
 		//gaming
 		// COMBO(tog_gaming, &tog GAME, 0 9)
-		//bluetooth
-		COMBO(blu0, &bt BT_SEL 0, 4 5)
-		COMBO(blu1, &bt BT_SEL 1, 14 15)
-		COMBO(blu_clear, &bt BT_CLR, 24 25)
 		// horizontal
 		// // main 
 		COMBO(esc, &kp ESC, 10 11)
