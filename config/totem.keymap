@@ -113,6 +113,7 @@ name: name##_macro {                  \
     MACRO(vim_wa, &kp ESC &kp COLON &kp W &kp A &kp ENTER)
 		MACRO(dir_up, &kp DOT &kp DOT &kp FSLH)
     MACRO(open_gitcommit, &kp SPACE &kp LC(G))
+    MACRO(open_gitfile, &kp SPACE &kp LC(P))
     MACRO(lazy_git, &kp L &kp G &kp ENTER)
     MACRO(nvim, &kp N &kp V &kp ENTER)
  };
@@ -155,6 +156,7 @@ combo_##name {                        \
     COMBO(Tilde, &kp TILDE, 27 28)
     COMBO(grave, &kp GRAVE, 28 29)
     COMBO(open_gitcommit, &open_gitcommit, 29 30)
+    COMBO(open_gitfile, &open_gitfile, 30 31)
     // // bottom
     // vertical left
     COMBO(vol_up, &kp C_VOL_UP,  0 10)
